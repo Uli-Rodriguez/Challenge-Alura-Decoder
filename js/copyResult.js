@@ -4,5 +4,5 @@ copyButton.addEventListener("click", () =>
 {
     const resultText = document.querySelector(".resultText");
     navigator.clipboard.writeText(resultText.textContent);
-    console.log("boton de copiar");
+    alert("Mensajes copiado al portapapeles");
 })
