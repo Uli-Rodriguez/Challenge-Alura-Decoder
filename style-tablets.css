@@ -1,0 +1,56 @@
+@media screen and (max-width:820px)
+{
+    /* Seccion donde se procesa el texto */
+    .toProcess
+    {
+        width: 90%;
+        margin-left: 5%;
+    }
+    
+    /* Texto a procesar */
+    .inputText
+    {
+        width: auto;
+    }
+
+    /* Botones para procesar texto */
+    .toProcess button
+    {
+        width: 48%;
+    }
+
+    /* Seccion donde se muestra el resultado */
+    .result
+    {
+        position: static;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-left: 4.6%;
+        padding-right: 4.6%;
+    }
+
+    /* Imagen de espera de texto */
+    .result img
+    {
+        display: none;
+    }
+
+    /* Texto procesado */
+    .resultText
+    {
+        min-height: 3em;
+    }
+
+    /* Notificar que no hay texto */
+    #withoutText
+    {
+        margin-top: 2.7vh;
+    }
+    
+    /* Pedir texto al usuario (Input) */
+    #askForInput
+    {
+        margin-bottom: 2.7vh;
+    }
+}

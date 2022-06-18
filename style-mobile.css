@@ -1,0 +1,14 @@
+@media screen and (max-width:600px)
+{
+    /* Botones para procesar texto */
+    .toProcess button
+    {
+        width: 100%;
+    }
+
+    /* Botonn para encriptar texto */
+    .encrypt
+    {
+        margin-bottom: 2.6vh;
+    }
+}
